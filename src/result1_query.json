@@ -1,0 +1,28 @@
+{
+  "took" : 0,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 3,
+    "successful" : 3,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1,
+      "relation" : "eq"
+    },
+    "max_score" : 0.9808291,
+    "hits" : [
+      {
+        "_index" : "index",
+        "_id" : "1",
+        "_score" : 0.9808291,
+        "_source" : {
+          "ID" : "B2",
+          "name" : "Fox1"
+        }
+      }
+    ]
+  }
+}

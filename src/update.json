@@ -1,0 +1,9 @@
+{
+    "script":{
+        "source":"ctx._source.ID = params.ID",
+        "lang":"painless",
+        "params":{
+            "ID":"B2"  
+     }
+    }
+}
