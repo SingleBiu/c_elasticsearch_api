@@ -8,7 +8,7 @@ CSRCS :=$(wildcard *.c)
 
 CPPSRCS :=$(wildcard *.cpp)
 
-O_PATH = ../obj
+O_PATH = ./
 
 OBJS := $(patsubst %.c, $(O_PATH)/%.o, $(CSRCS))
 

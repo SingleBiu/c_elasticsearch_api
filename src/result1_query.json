@@ -1,5 +1,5 @@
 {
-  "took" : 0,
+  "took" : 1,
   "timed_out" : false,
   "_shards" : {
     "total" : 3,
@@ -12,12 +12,12 @@
       "value" : 1,
       "relation" : "eq"
     },
-    "max_score" : 0.9808291,
+    "max_score" : 0.6931471,
     "hits" : [
       {
         "_index" : "index",
         "_id" : "1",
-        "_score" : 0.9808291,
+        "_score" : 0.6931471,
         "_source" : {
           "ID" : "B2",
           "name" : "Fox1"
